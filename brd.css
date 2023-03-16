@@ -1,3 +1,4 @@
+@import url(https://fonts.bunny.net/css?family=abeezee:400,400i|source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
 @import url(https://fonts.bunny.net/css?family=source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -57,8 +58,6 @@ table {
   line-height: 92px;
   padding: 20px;
   width: 500px;
-  bottom-left : 5px;
-
 }
 .Hello {
   font-size: clamp(4.21rem, 1.43vw + 3.85rem, 5rem);
@@ -71,8 +70,15 @@ table {
   padding-bottom: 900px;
   padding-top: 80px;
 }
-.Introduce-myself {
-  
+.introduce-myself {
+  font-family: 'Source Serif Pro' , serif;
+  font-size: 25px;
+  line-height: 1.5;
+  color : #272727;
+  width: 65%;
+  height: 0.60%;
+  margin: -0.10%;
+  padding: 1%;
 }
 .img Favicon1.jpg {
   height:auto;
