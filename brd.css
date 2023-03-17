@@ -1,3 +1,4 @@
+@import url(https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i);
 @import url(https://fonts.bunny.net/css?family=abeezee:400,400i|source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
 @import url(https://fonts.bunny.net/css?family=source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -48,10 +49,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.body {
+  table-layout: content;
+  max-width: var(--wp--style--global--content-size);
+margin-left: auto !important;
+margin-right: auto !important;
+}
 .box {
   border-color:#c17274;
   border-style :solid;
   border-width: 0.9rem;
+  padding: 30%;
 }
 .title{
   color:#e1d4a3;
@@ -60,28 +68,37 @@ table {
   width: 500px;
 }
 .Hello {
-  font-size: clamp(4.21rem, 1.43vw + 3.85rem, 5rem);
-  font-weight: 300px;
+  font-family: 'Source Serif pro', serif;
   letter-spacing: -0.01em;
-  line-height: 1.2;
+  max-width: max-content;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  line-height: 1.6;
   color : #09164a;
-  font-family: 'Source Serif Pro', serif; 
+  font-family: 'DM Sans';
   padding-left: 580px;
   padding-bottom: 900px;
   padding-top: 80px;
 }
 .introduce-myself {
-  font-family: 'Source Serif Pro' , serif;
-  font-size: 25px;
-  line-height: 1.5;
-  color : #272727;
-  width: 65%;
-  height: 0.60%;
+  width: 55%;
+  height: 20%;
   margin: -0.10%;
   padding: 1%;
+  letter-spacing: 0.1em;
+}
+.Workshops {
+  color : #000000;
+  font-family: ''DM'', sans serif;
+  font-size: medium;
+  width: 80%;
+  line-height: 1.6;
+  margin-left: 30%;
+  margin-top: 2%;
+ margin-right: 60;
 }
 .img Favicon1.jpg {
   height:auto;
   max-width:100%;
-  vertical-align:bottom
+  vertical-align:top
 }
