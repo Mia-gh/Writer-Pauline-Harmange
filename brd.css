@@ -31,54 +31,53 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
+header {
+  width : 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.title {
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-left: 5%;
+  flex-direction: start;
+  font-family: 'dm sans 400';
+  font-weight: bolder;
+  color : #e1d4a3;
+  font-size: x-large;
+  width : 50%
+  
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.Menu {
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: 'dm sans 400'; 
 }
+
 .body {
-  table-layout: content;
-  max-width: var(--wp--style--global--content-size);
-margin-left: auto !important;
-margin-right: auto !important;
-}
-.box {
   border-color:#c17274;
   border-style :solid;
   border-width: 0.9rem;
-  padding: 30%;
 }
-.title{
-  color:#e1d4a3;
-  line-height: 92px;
-  padding: 20px;
-  width: 500px;
-}
+
 .Hello {
-  font-family: 'Source Serif pro', serif;
   letter-spacing: -0.01em;
   max-width: max-content;
-  margin-left: auto !important;
+  margin-left: 30%;
   margin-right: auto !important;
+  margin-bottom: 80%;
   line-height: 1.6;
   color : #09164a;
-  font-family: 'DM Sans';
-  padding-left: 580px;
-  padding-bottom: 900px;
-  padding-top: 80px;
+  font-family: 'Source Serif Pro', serif;
 }
 .introduce-myself {
   width: 55%;
@@ -100,5 +99,6 @@ margin-right: auto !important;
 .img Favicon1.jpg {
   height:auto;
   max-width:100%;
-  vertical-align:top
+  vertical-align:top;
+  float : right;
 }

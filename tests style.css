@@ -1,0 +1,72 @@
+@import url(https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i);
+@import url(https://fonts.bunny.net/css?family=abeezee:400,400i|source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
+@import url(https://fonts.bunny.net/css?family=source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
+
+
+
+body {
+    border-color:#c17274;
+  border-style :solid;
+  border-width: 0.9rem; 
+  margin: 0;
+}
+
+
+
+header {
+  width : 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.title {
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-left: 5%;
+  flex-direction: start;
+  font-family: 'dm sans 400';
+  font-weight: bolder;
+  color : #e1d4a3;
+  font-size: x-large;
+  width : 50%
+  
+}
+
+.nav-bar {
+    display: flex;
+    text-align: center;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: start;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.Hello {
+  letter-spacing: -0.01em;
+  max-width: max-content;
+  margin-left: 30%;
+  margin-right: auto !important;
+  margin-bottom: 80%;
+  line-height: 1.6;
+  color : #09164a;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.title h1 {
+
+}
+
+.title p {
+
+}
