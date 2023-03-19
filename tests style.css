@@ -40,12 +40,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 h1{
-    margin: 3rem 20rem ;
+    margin: 3rem 11rem ;
     font-family: 'DM Sans', sans-serif;
-  font-weight: bolder;
+  font-weight: bold 700;
   color : #e1d4a3;
-  font-size: 1.4em;
-  font-weight:400;
+  font-size: 21px;
+  font-weight:500;
  
 }
 
@@ -85,13 +85,13 @@ body {
     font-size : 5em;
     color : #09164a;
     font-family : 'Source Serif Pro', serif;
-    margin-left: 30rem;
+    margin-left: 28rem;
   }
 
 .introduce-myself {
     font-family : 'DM Sans', sans-serif;
     width : 710px;
-    margin-left: 30rem;
+    margin-left: 28rem;
     font-size: 1.2em;
     
 }
@@ -100,5 +100,38 @@ body {
     display: flex;
     justify-content: left;
     flex-direction : column;
+    margin-top: 35px;
+    
 }
+
+.Horizons {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18.992px;
+    line-height: 30.3872px ;
+    margin-left: 10.5rem;
+    letter-spacing: normal;
+    color: 39,39,39;
+    background-color: ffffff;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+photo1 {
+    display: flex;
+    text-align: center;
+}
+
+.Fox {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18.99px;
+    line-height: 30px ;
+    margin-left: 15rem;
+    margin-top: 0.5em;
+    letter-spacing: normal;
+    color: 39,39,39;
+    background-color: ffffff;
+    padding-top: -0.8px;
+    padding-bottom: 15px;
+}
+
 
