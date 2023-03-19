@@ -227,33 +227,37 @@ body {
   }
 
 
+  span {
+    display: inline-block;
+  }
+
 footer {
     padding-top: 150px;
-    font-size: large;
+    padding-left: 30%;
+    padding-bottom: 3%;
     display: flex;
-    inline-size: auto;
-
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: large;
+    color: black;
+    position: relative;
+}
+.searchbar {
+    text-align: center;
+    color: rgb(238,238,238) 0%;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 5%;
+    padding: 80%;
+    
 }
 
+#copy {
+    color: rgb(169,184,195) 100%)
+    padding-left: 90%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+ }
 
 
 
-
-/*--here to save*/
-display: flex;
-flex-wrap: nowrap;
-font-family: 'DM Sans', sans-serif;
-font-size: 18.99px;
-line-height: 30px;
-margin-left: 15rem;
-margin-top: 0.8em;
-letter-spacing: normal;
-color: 39, 39, 39;
-padding-top: -0.50px;
-padding-bottom: 50px;
-
-
-image 2
-margin-left: 0.08rem;
-padding-left: 5em;
-object-fit: fill;
