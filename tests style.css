@@ -171,6 +171,7 @@ body {
     width: 710px;
     margin-left: 28rem;
     font-size: 1.2em;
+    color: #272727;
 
 }
 
@@ -186,6 +187,7 @@ body {
     display: flex;
     -ms-layout-grid-line: auto;
     font-family: 'DM Sans', sans-serif;
+    color: #272727;
     font-size: 18.992px;
     line-height: 30.3872px;
     margin-left: 10.5rem;
@@ -201,26 +203,28 @@ body {
     padding-left: 60%;
     margin-left: 150%;
 }
-.par2 {
+.container {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 18%;
+   
+}
+
+.image2 {
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+    margin-left: 11em;
+}
+.text {
     font-family: 'DM Sans', sans-serif;
-    font-size: 18.99px;
-    line-height: 30px;
-    margin-left: 15rem;
-    margin-top: 0.5em;
-    letter-spacing: normal;
-    color: 39, 39, 39;
-    background-color: ffffff;
-    padding-top: -0.8px;
-    padding-bottom: 15px;
-}
-
-
-le_renard {
-    width: calc(100% + 38px);
-    position: relative;
-    left: -19px;
-
-}
+    font-size: 18.992px;
+    color: #272727;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 1%;
+    float: left;
+  }
 
 
 footer {
@@ -230,3 +234,26 @@ footer {
     inline-size: auto;
 
 }
+
+
+
+
+
+/*--here to save*/
+display: flex;
+flex-wrap: nowrap;
+font-family: 'DM Sans', sans-serif;
+font-size: 18.99px;
+line-height: 30px;
+margin-left: 15rem;
+margin-top: 0.8em;
+letter-spacing: normal;
+color: 39, 39, 39;
+padding-top: -0.50px;
+padding-bottom: 50px;
+
+
+image 2
+margin-left: 0.08rem;
+padding-left: 5em;
+object-fit: fill;
