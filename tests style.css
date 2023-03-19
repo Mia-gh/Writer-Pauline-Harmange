@@ -116,10 +116,11 @@ body {
     padding-bottom: 10px;
 }
 
-photo1 {
-    display: flex;
-    text-align: center;
-}
+aside {
+        display: block;
+        float:left;
+        margin:10px;
+      }
 
 .Fox {
     font-family: 'DM Sans', sans-serif;
