@@ -1,0 +1,138 @@
+@import url(https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i);
+@import url(https://fonts.bunny.net/css?family=abeezee:400,400i|source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
+@import url(https://fonts.bunny.net/css?family=source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*HEADER*/
+
+.banner {
+    display:flex;
+}
+
+h1{
+    margin: 3rem 11rem ;
+    font-family: 'DM Sans', sans-serif;
+  font-weight: bold 700;
+  color : #e1d4a3;
+  font-size: 21px;
+  font-weight:500;
+ 
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap : 50px;
+    margin-left: 20rem;
+    margin-right: 3rem;
+}
+
+nav a {
+    color : black;
+    text-decoration : none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight:400;  
+    font-size : 1.3em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+}
+
+
+/*body*/
+
+body {
+    border-color:#c17274;
+  border-style :solid;
+  border-width: 0.9rem; 
+  }
+
+.hello h1 {
+    font-size : 5em;
+    color : #09164a;
+    font-family : 'Source Serif Pro', serif;
+    margin-left: 28rem;
+  }
+
+.introduce-myself {
+    font-family : 'DM Sans', sans-serif;
+    width : 710px;
+    margin-left: 28rem;
+    font-size: 1.2em;
+    
+}
+
+.hello {
+    display: flex;
+    justify-content: left;
+    flex-direction : column;
+    margin-top: 35px;
+    
+}
+
+.Horizons {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18.992px;
+    line-height: 30.3872px ;
+    margin-left: 10.5rem;
+    letter-spacing: normal;
+    color: 39,39,39;
+    background-color: ffffff;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+aside {
+        display: block;
+        float:left;
+        margin:10px;
+      }
+
+.Fox {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18.99px;
+    line-height: 30px ;
+    margin-left: 15rem;
+    margin-top: 0.5em;
+    letter-spacing: normal;
+    color: 39,39,39;
+    background-color: ffffff;
+    padding-top: -0.8px;
+    padding-bottom: 15px;
+}
+
+

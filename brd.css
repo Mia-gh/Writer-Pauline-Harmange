@@ -1,0 +1,165 @@
+@import url(https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i);
+@import url(https://fonts.bunny.net/css?family=abeezee:400,400i|source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
+@import url(https://fonts.bunny.net/css?family=source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+header {
+  width : 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.title {
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-left: 5%;
+  flex-direction: start;
+  font-family: 'dm sans 400';
+  font-weight: bolder;
+  color : #e1d4a3;
+  font-size: x-large;
+  width : 50%
+  
+}
+.Menu {
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: 'dm sans 400'; 
+}
+
+.body {
+  border-color:#c17274;
+  border-style :solid;
+  border-width: 0.9rem;
+}
+
+.Hello {
+  letter-spacing: -0.01em;
+  max-width: max-content;
+  margin-left: 30%;
+  margin-right: auto !important;
+  margin-bottom: 80%;
+  line-height: 1.6;
+  color : #09164a;
+  font-family: 'Source Serif Pro', serif;
+}
+.introduce-myself {
+  width: 55%;
+  height: 20%;
+  margin: -0.10%;
+  padding: 1%;
+  letter-spacing: 0.1em;
+}
+.Workshops {
+  color : #000000;
+  font-family: ''DM'', sans serif;
+  font-size: medium;
+  width: 80%;
+  line-height: 1.6;
+  margin-left: 30%;
+  margin-top: 2%;
+ margin-right: 60;
+}
+.img Favicon1.jpg {
+  height:auto;
+  max-width:100%;
+  vertical-align:top;
+  float : right;
+}
+
+
+/*teeeeeeeeeeest*/
+
+/*header*/
+
+header {
+    
+  display: flex;
+  flex-direction: row;
+}
+
+.banner h1 {
+  margin-top: 20px;
+  margin-left: 5px;
+  font-family: 'dm sans 400';
+  font-weight: bolder;
+  color : #e1d4a3;
+  font-size: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+/*body*/
+
+
+
+
+
+.Hello {
+letter-spacing: -0.01em;
+max-width: max-content;
+margin-left: 30%;
+margin-right: auto !important;
+margin-bottom: 80%;
+line-height: 1.6;
+color : #09164a;
+font-family: 'Source Serif Pro', serif;
+}

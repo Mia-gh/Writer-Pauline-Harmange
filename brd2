@@ -1,0 +1,22 @@
+.border {
+  border-color:#c17274;
+  border-style :solid;
+  border-width: 0.5rem;
+}
+.title{
+  color:#e1d4a3;
+  line-height: 92px;
+  padding: 20px;
+  width: 500px;
+  bottom-left : 5px;
+
+}
+.Hello {
+  font-size: 80px;
+  font-family: Inter, sans-serif;
+}
+.img Favicon1.jpg {
+  height:auto;
+  max-width:100%;
+  vertical-align:bottom
+}
