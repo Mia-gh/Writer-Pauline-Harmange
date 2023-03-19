@@ -7,63 +7,141 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
 /*HEADER*/
 
 .banner {
-    display:flex;
+    display: flex;
 }
 
-h1{
-    margin: 3rem 11rem ;
+h1 {
+    margin: 3rem 11rem;
     font-family: 'DM Sans', sans-serif;
-  font-weight: bold 700;
-  color : #e1d4a3;
-  font-size: 21px;
-  font-weight:500;
- 
+    font-weight: bold 700;
+    color: #e1d4a3;
+    font-size: 21px;
+    font-weight: 500;
+
 }
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    gap : 50px;
+    gap: 50px;
     margin-left: 20rem;
     margin-right: 3rem;
 }
 
 nav a {
-    color : black;
-    text-decoration : none;
+    color: black;
+    text-decoration: none;
     font-family: 'DM Sans', sans-serif;
-    font-weight:400;  
-    font-size : 1.3em;
+    font-weight: 400;
+    font-size: 1.3em;
 }
 
 nav {
@@ -76,63 +154,79 @@ nav {
 /*body*/
 
 body {
-    border-color:#c17274;
-  border-style :solid;
-  border-width: 0.9rem; 
-  }
+    border-color: #c17274;
+    border-style: solid;
+    border-width: 0.9rem;
+}
 
 .hello h1 {
-    font-size : 5em;
-    color : #09164a;
-    font-family : 'Source Serif Pro', serif;
+    font-size: 5em;
+    color: #09164a;
+    font-family: 'Source Serif Pro', serif;
     margin-left: 28rem;
-  }
+}
 
 .introduce-myself {
-    font-family : 'DM Sans', sans-serif;
-    width : 710px;
+    font-family: 'DM Sans', sans-serif;
+    width: 710px;
     margin-left: 28rem;
     font-size: 1.2em;
-    
+
 }
 
 .hello {
     display: flex;
     justify-content: left;
-    flex-direction : column;
+    flex-direction: column;
     margin-top: 35px;
-    
+
 }
 
-.Horizons {
+.par1 {
+    display: flex;
+    -ms-layout-grid-line: auto;
     font-family: 'DM Sans', sans-serif;
     font-size: 18.992px;
-    line-height: 30.3872px ;
+    line-height: 30.3872px;
     margin-left: 10.5rem;
     letter-spacing: normal;
-    color: 39,39,39;
+    color: 39, 39, 39;
     background-color: ffffff;
     padding-top: 100px;
     padding-bottom: 10px;
+    padding-right: 14%;
 }
 
-aside {
-        display: block;
-        float:left;
-        margin:10px;
-      }
-
-.Fox {
+.horizons_media {
+    padding-left: 60%;
+    margin-left: 150%;
+}
+.par2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 18.99px;
-    line-height: 30px ;
+    line-height: 30px;
     margin-left: 15rem;
     margin-top: 0.5em;
     letter-spacing: normal;
-    color: 39,39,39;
+    color: 39, 39, 39;
     background-color: ffffff;
     padding-top: -0.8px;
     padding-bottom: 15px;
 }
 
 
+le_renard {
+    width: calc(100% + 38px);
+    position: relative;
+    left: -19px;
+
+}
+
+
+footer {
+    padding-top: 150px;
+    font-size: large;
+    display: flex;
+    inline-size: auto;
+
+}
