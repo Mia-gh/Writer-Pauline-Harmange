@@ -137,6 +137,7 @@ nav ul {
     font-size: medium;
 }
 
+
 nav a {
     color: black;
     text-decoration: none;
@@ -211,19 +212,21 @@ body {
     padding-left: 60%;
     margin-left: 150%;
 }
+
 .container {
     align-items: center;
     justify-content: center;
     padding-bottom: 18%;
-   
+
 }
 
 .image2 {
     max-width: 25%;
-    max-height:15%;
+    max-height: 15%;
     float: left;
     margin-left: 11em;
 }
+
 .text {
     font-family: 'DM Sans', sans-serif;
     font-size: 18.992px;
@@ -232,12 +235,12 @@ body {
     padding-left: 10px;
     padding-top: 1%;
     float: left;
-  }
+}
 
 
-  span {
+span {
     display: inline-block;
-  }
+}
 
 footer {
     padding-top: 150px;
@@ -250,19 +253,20 @@ footer {
     color: black;
     position: relative;
 }
+
 .searchbar {
     text-align: center;
-    color: rgb(238,238,238) 0%;
+    color: #ffffff;
+    background-color: black
     margin-left: 5%;
     margin-top: 40px;
     margin-bottom: 5%;
     padding: 80%;
-    
+
 }
 
 #copy {
-    color: rgb(169,184,195) 100%)
-    padding-left: 90%;
+    color: rgb(169, 184, 195) 100%) padding-left: 90%;
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
- }
+}
