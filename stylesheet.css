@@ -223,7 +223,7 @@ body {
 
 }
 
-.par1 {
+.paragraph1 {
     display: flex;
     -ms-layout-grid-line: auto;
     font-family: 'DM Sans', sans-serif;
@@ -240,6 +240,22 @@ body {
     justify-content: center ;
 }
 
+.paragraph1 a:hover {
+    text-decoration: underline #e1d4a3;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    background-color : #c17274;
+
+}
+
+.paragraph2 a:hover {
+    text-decoration: underline #e1d4a3;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    background-color : #c17274;
+}
+
+
 .horizons_media {
     padding-left: 120%;
     margin-left: 150%;
@@ -252,7 +268,7 @@ body {
 .dh:hover {
     text-decoration-line: underline #e1d4a3;
 }
-.container {
+.paragraph2 {
     align-items: center;
     justify-content: center;
     padding-bottom: 18%;
@@ -270,7 +286,7 @@ body {
     max-width: 25%;
     max-height: 15%;
     float: left;
-    margin-left: 17em;
+    margin-left: 10em;
 }
 
 .text {
