@@ -117,6 +117,10 @@ section {
     display: flex;
 }
 
+a {
+    color:inherit;
+}
+
 h1 {
     margin: 3rem 11rem;
     font-family: 'DM Sans', sans-serif;
@@ -127,19 +131,46 @@ h1 {
 
 }
 
+.title {
+    margin: 3rem 11rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold 700;
+    color: #e1d4a3;
+    font-size: 21px;
+    font-weight: 500;
+
+}
+
+.title:hover {
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: #e1d4a3;
+    text-decoration: underline #e1d4a3;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    transition-duration: 2sec;
+}
+
+.title:active{
+    text-decoration-style: dashed;
+    transition: duration 15sec;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     gap: 20px;
-    margin-left: 30rem;
+    margin-left: 40rem;
     color: #272727;
     font-size: medium;
 }
 
 
 nav a {
-    color: black;
+    color: #272727;
     text-decoration: none;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
@@ -206,6 +237,7 @@ body {
     padding-top: 100px;
     padding-bottom: 10px;
     padding-right: 14%;
+    justify-content: center ;
 }
 
 .horizons_media {
@@ -213,18 +245,37 @@ body {
     margin-left: 150%;
 }
 
+.span dh {
+    text-decoration-line: underline #e1d4a3;
+}
+
+.dh:hover {
+    text-decoration-line: underline #e1d4a3;
+}
 .container {
     align-items: center;
     justify-content: center;
     padding-bottom: 18%;
+    font-family: 'dm sans serif';
+    text-decoration-line: none;
+    color: #272727;
+    font-size: 18.992px;
+    line-height: 30.3872px;
+    justify-content: flex-start ;
+    
 
 }
+
+a: hover {
+    text-decoration-style: underline #e1d4a3;
+}
+
 
 .image2 {
     max-width: 25%;
     max-height: 15%;
     float: left;
-    margin-left: 11em;
+    margin-left: 17em;
 }
 
 .text {
@@ -235,6 +286,8 @@ body {
     padding-left: 10px;
     padding-top: 1%;
     float: left;
+    text-decoration: none;
+    
 }
 
 
@@ -250,19 +303,15 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     font-size: large;
-    color: black;
     position: relative;
 }
 
 .searchbar {
     text-align: center;
-    color: #ffffff;
-    background-color: black
+    color: #8B758B;
+    background-color: rgb(202, 199, 199)
     margin-left: 5%;
-    margin-top: 40px;
-    margin-bottom: 5%;
-    padding: 80%;
-
+    padding : 80%;
 }
 
 #copy {
