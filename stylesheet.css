@@ -2,6 +2,7 @@
 @import url(https://fonts.bunny.net/css?family=abeezee:400,400i|source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
 @import url(https://fonts.bunny.net/css?family=source-serif-pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
 
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -95,6 +96,7 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
+
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -283,13 +285,9 @@ body {
     margin-left: 150%;
 }
 
-.span dh {
-    text-decoration-line: underline #e1d4a3;
-}
 
-.dh:hover {
-    text-decoration-line: underline #e1d4a3;
-}
+
+
 .paragraph2 {
     align-items: center;
     justify-content: center;
