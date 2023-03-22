@@ -119,12 +119,14 @@ section {
     width:100%;
 }
 
+
 .title {
     margin: 3rem 15rem;
+    margin-left: 19rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold 700;
     color: #e1d4a3;
-    font-size: 21px;
+    font-size: 1.3em;
     font-weight: 600;
     flex-direction: row;
     
@@ -136,8 +138,8 @@ section {
     text-decoration: underline;
     text-decoration-color: #e1d4a3;
     text-decoration: underline #e1d4a3;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 10px;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.4em;
     transition-duration: 2sec;
     cursor: pointer;
 }
@@ -145,8 +147,8 @@ section {
 .title:active{
     text-decoration-style: dashed;
     transition: duration 15sec;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 10px;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.4em;
 }
 
 a {
@@ -154,11 +156,12 @@ a {
 }
 
 h1 {
-    margin: 3rem 11rem;
+    margin: 4rem 19rem;
+    margin-left: 5em;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold 700;
     color: #e1d4a3;
-    font-size: 21px;
+    font-size: 5em;
     font-weight: 500;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -188,15 +191,22 @@ nav a {
     text-decoration: underline #e1d4a3;
     text-decoration: none;
     text-decoration-thickness: 2px;
-    text-underline-offset: 10px;
+    text-underline-offset: 0.4em;
 }
 
 nav a:hover {
     
         text-decoration: underline #e1d4a3;
-        text-decoration-thickness: 2px;
-        text-underline-offset: 10px
+        text-decoration-thickness: 0.1em;
+        text-underline-offset: 0.4em;
 
+}
+
+nav a:active{
+    text-decoration-style: dashed;
+    transition: duration 15sec;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.4em;
 }
 
 
@@ -213,12 +223,14 @@ body {
     color: #09164a;
     font-family: 'Source Serif Pro', serif;
     margin-left: 28rem;
+    margin-bottom:0.5em;
 }
 
 .introduce-myself {
     font-family: 'DM Sans', sans-serif;
-    width: 710px;
+    width: 38em;
     margin-left: 28rem;
+    margin-top: 0.5em;;
     font-size: 1.2em;
     color: #272727;
 
@@ -228,7 +240,8 @@ body {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-top: 35px;
+    margin-top: 2em;
+    margin-left:6em;
 
 }
 
@@ -239,7 +252,7 @@ body {
     color: #272727;
     font-size: 18.992px;
     line-height: 30.3872px;
-    margin-left: 10.5rem;
+    margin-left: 9rem;
     letter-spacing: normal;
     color: 39, 39, 39;
     background-color: ffffff;
@@ -281,6 +294,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-bottom: 18%;
+    margin-left: 7.3rem;
     font-family: 'dm sans serif';
     text-decoration-line: none;
     color: #272727;
