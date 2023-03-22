@@ -117,8 +117,7 @@ section {
     display: flex;
 }
 
-a {
-    color:inherit;
+
 }
 
 h1 {
@@ -138,12 +137,12 @@ h1 {
     color: #e1d4a3;
     font-size: 21px;
     font-weight: 500;
+    text-decoration-offset: 10px;
 
 }
 
 .title:hover {
     color:black;
-    text-decoration: underline;
     text-decoration-color: #e1d4a3;
     text-decoration: underline #e1d4a3;
     text-decoration-thickness: 2px;
