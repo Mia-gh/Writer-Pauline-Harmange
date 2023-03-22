@@ -116,13 +116,15 @@ section {
 .banner {
     display: flex;
     flex-direction:row;
+    flex-direction: end;
     width:100%;
 }
 
 
 .title {
-    margin: 3rem 15rem;
+    margin-bottom: 6rem 20rem;
     margin-left: 19rem;
+    margin-top: 10rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold 700;
     color: #e1d4a3;
@@ -156,8 +158,8 @@ a {
 }
 
 h1 {
-    margin: 4rem 19rem;
-    margin-left: 5em;
+    margin: 2rem 19rem;
+    margin-left: 15em;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold 700;
     color: #e1d4a3;
@@ -177,8 +179,8 @@ nav ul{
     color: #272727;
     font-size: medium;
     gap : 2rem;
-    margin-top: 2.7rem;
-    margin-left: 20rem;;
+    margin-top: 1.5rem;
+    margin-left: 61rem;
       
     }
 
